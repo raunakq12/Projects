@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Rock+Salt:400' rel='stylesheet' type='text/css'>
+  <script scr="jquery-2.1.4.js"></script>
+  <link rel='stylesheet' href='/assets/style/basic.css'>
+  <link rel="icon" href="https://img.icons8.com/cotton/64/000000/scream.png" type="image/x-icon">
+ </head>
+
+<style>
+   .heaz{
+      font-family: 'Unica One', cursive;
+    }
+  .top{
+    font-family:'Pacifico', cursive ;
+    display:flex;
+    font-size:25px;
+  }
+  .ml16 {
+  color: #0ecff1;
+  padding: 50px 0;
+  font-weight: 800;
+  font-size: 2.4em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  overflow: hidden;
+  position:relative;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.ml16 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
+.ml10 {
+  position:relative;
+  font-weight: 900;
+  font-size: 4.5em;
+}
+
+.ml10 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
+  color:white
+}
+.thes{
+font-family:'Pacifico', cursive;
+
+}
+
+</style>
+
+
+<body>
+                                   <!-- music used in the website -->
+<embed src="/music/Ebbs And Flow (M ∆ P x Heartbeats.).mp3" loop="true" autostart="true" width="2" height="0">
+  <header class="text-white body-font  ">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+     
+      <a class="flex title-font font-medium  items-center text-gray-900 mb-4 md:mb-0">
+      
+    
+          <div class='heading'>
+            
+            <span class="ml-15 text-5xl text-transparent py-2 px-1 font-bold tracking-widest bg-clip-text bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 " >
+              Portfolio
+            </span>
+          </div>
+        </a>
+
+      <!-- first 3 options-->
+      <nav class=' md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center ' >
+        <a class=" top  rounded transition duration-200 ease-in-out mr-5 hover:text-blue-500 font-medium  px-5 py-3  transform  hover:translate-y-1 hover:scale-110" href='/home.html'>Home</a>
+        <a class=" top rounded transition duration-200 ease-in-out mr-5 hover:text-green-500 font-medium px-5 py-3 transform  hover:translate-y-1 hover:scale-110" href='/assets/navi/my work.html'> Works </a>
+        <a class=" top  rounded transition duration-200 ease-in-out mr-5 hover:text-red-500 font-medium px-5 py-3 transform  hover:translate-y-1 hover:scale-110" href='/assets/navi/gallery2.html'>Gallery</a>
+        
+      </nav>
+
+     
+  <!--contacts-->
+ 
+  <a href="/assets/navi/contact.html">
+  <button class=" side button  font-medium text-xl hover:text-red-500" style="vertical-align:middle"><span>Contact </span></button>
+  </a>        
+     <!--path d is used here for the symbols (svg)-->   
+    <svg fill="none" stroke="black" stroke-linecap="round"  stroke-linejoin="round" stroke-width="4" class="w-4 h-4 ml-10" viewBox="0 -1 25 25 ">
+        
+        </svg>
+      </button>
+    </div>
+  </header>
+<hr>
+ 
+                                          
+                                          
+
+
+<section class="text-gray-600 body-font relative">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+
+        
+          <div class="thes">
+            <div class="heaz">
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-white text-6xl py-12">Always happy to help.</p></div>
+      
+
+<!--form-->
+
+      <div class="lg:w-1/2 md:w-2/3 mx-auto" >
+        <form id="contact-form" method="post" action="mailto:1ms20cs90@gmail.com" enctype="text/plain">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="name" class="leading-7 text-2xl text-white text-3xl ">Name</label>
+              <input type="text" id="name" name="name" class="w-full bg-white bg-opacity-50 rounded border border-none   text-base  text-black py-1 px-3 leading-8 hover:bg-grey-200 ">
+            </div>
+          </div>
+
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="email" class="leading-7 text-2xl text-white text-3xl ">Email</label>
+              <input type="email" id="email" name="email" class="w-full bg-white bg-opacity-50 rounded border border-none text-base  text-black py-1 px-3 leading-8 ">
+            </div>
+          </div>
+
+          <div class="p-2 w-full">
+            <div class="relative">
+              <label for="message" class="leading-7 text-2xl text-white text-3xl ">Message</label>
+              <textarea id="message" name="message" class="w-full bg-white bg-opacity-50 rounded border border-none  h-32 text-black outline-none py-1 px-3 resize-none leading-6 "></textarea>
+            </div>
+          </div>
+
+          <div  type="submit" class="p-2 w-full text-3xl">
+            <button class=" transition duration-200 ease-in-out flex mx-auto text-black rounded text-2xl  bg-white border-0 py-2 px-8  transform  hover:translate-y-1 hover:scale-110 ">Submit</button>
+          </div>
+        </form>
+</div>
+
+         
+  </body>
+</html>
+
+
+            
+            
