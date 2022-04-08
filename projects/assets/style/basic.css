@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt:400');  
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+.sample{
+  font-family:'Pacifico', cursive;
+  font-size:x-large ;
+}
+
+.quote{
+  font-family: 'Seaweed Script', cursive;
+  font-size: 2em;
+  background-color: rgb(0, 4, 7);
+  opacity:80%;
+  border-radius: 15px;
+  border-width: 2px;
+}
+
+
+.myname{
+font-family:'Bungee Shade', cursive;
+font-size:5em;
+color: #c6ffcf;
+animation: neon .08s ease-in-out infinite alternate;}
+@keyframes neon {
+from {
+  text-shadow:
+  0 0 6px rgba(228, 202, 222, 0.92),
+  0 0 30px rgba(228, 202, 219, 0.34),
+  0 0 12px rgba(207, 30, 242, 0.52),
+  0 0 21px rgba(30,132,242,0.92),
+  0 0 34px rgba(242, 30, 154, 0.78),
+  0 0 54px rgba(30,132,242,0.92);
+}
+to {
+  text-shadow:
+  0 0 6px rgba(202,228,225,0.98),
+  0 0 30px rgba(202,228,225,0.42),
+  0 0 12px rgba(30,132,242,0.58),
+  0 0 22px rgba(30,132,242,0.84),
+  0 0 38px rgba(30,132,242,0.88),
+  0 0 60px rgba(30,132,242,1);
+}
+}     
+
+body{
+  background-image: url('https://i.pinimg.com/originals/ea/23/1e/ea231e54322aadc79294e0f2ddda4a53.gif');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  display: block;
+  
+
+
+}
+html,body{
+  margin: 0;
+  padding: 0;
+  width:100%vh;
+  height: 100%vh;
+  font-family: "Monument Extended";
+  background-color: #e3e3e3;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color:white;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 20;
+  padding: 12px 28px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+  
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}  
+  .sample{
+    font-family:'Pacifico', cursive;
+    font-size:x-large ;
+  }
+  .heading{font-family:'Bungee Shade', cursive ;
+            color:black;}
+ 
+
+.myname{
+  font-family:'Bungee Shade', cursive;
+  font-size:3.89em;
+  color: #c6ffcf;
+  animation: neon .08s ease-in-out infinite alternate;}
+@keyframes neon {
+  from {
+    text-shadow:
+    0 0 6px rgba(228, 202, 222, 0.92),
+    0 0 30px rgba(228, 202, 219, 0.34),
+    0 0 12px rgba(207, 30, 242, 0.52),
+    0 0 21px rgba(30,132,242,0.92),
+    0 0 34px rgba(242, 30, 154, 0.78),
+    0 0 54px rgba(30,132,242,0.92);
+  }
+  to {
+    text-shadow:
+    0 0 6px rgba(202,228,225,0.98),
+    0 0 30px rgba(202,228,225,0.42),
+    0 0 12px rgba(30,132,242,0.58),
+    0 0 22px rgba(30,132,242,0.84),
+    0 0 38px rgba(30,132,242,0.88),
+    0 0 60px rgba(30,132,242,1);
+  }
+}
+  
+  .fggg{
+    size: 8px;
+  }
+
+  h1{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #101010;
+
+  }
+  .pace{
+    pointer-events: none;
+    user-select: none;
+    z-index: 2;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    border: 0px;
+    height: 1px;
+    overflow: hidden;
+    background: #1b1b1b;
+  }
+  .pace .pace-progress{
+      box-sizing: border-box;
+      transform: translate3d(0,0,0);
+      max-width: 400px;
+      position: absolute;
+      z-index: 2;
+      display: block;
+      top: 0;
+      right: 100%;
+      height: 100%;
+      width: 100%;
+      background: grey;
+
+
+  }
+  .pace .pace-inactive{
+    display: none;
+
+  }
+  #preloader {
+    width: 100%;
+    height: 100vh;
+    background: #101010;
+    overflow: hidden;
+    position: fixed;
+    transition-timing-function: cubic-bezier(0.19,1,0.22,1);
+  }
+  .p{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+  }
+  
+  .top{
+    font-family:'Pacifico', cursive ;
+    display:flex;
+    font-size: 25px;
+    background-color: black; }
+
+    .side{
+      font-family: 'Pacifico','cursive';
+      font-size:25px;
+    }
+    ::selection {
+      color: #fff;
+      background-color:black;
+    }
+    
+
+    .bubble {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      
+      -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+      -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+      box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+      
+      height: 200px;
+      position: absolute;
+      width: 200px;
+  }
+  
+  .bubble:after {
+      background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 70%); /* FF3.6+ */
+      background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.5)), color-stop(70%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+      background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Chrome10+,Safari5.1+ */
+      background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Opera 12+ */
+      background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* IE10+ */
+      background: radial-gradient(ellipse at center,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      
+      -webkit-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+      -moz-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+      box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+      
+      content: "";
+      height: 180px;
+      left: 10px;
+      position: absolute;
+      width: 180px;
+  }
+  /* ANIMATIONS */
+  
+  .x1 {
+      -webkit-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+      -moz-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+      animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate; 
+      left: -5%;
+      top: 5%; 
+      -webkit-transform: scale(0.6);
+      -moz-transform: scale(0.6);
+      transform: scale(0.6);
+  }
+  .x2 {
+      -webkit-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+      -moz-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+      animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+      
+      left: 5%;
+      top: 80%;
+      
+      -webkit-transform: scale(0.4);
+      -moz-transform: scale(0.4);
+      transform: scale(0.4);
+  }
+  
+  .x3 {
+      -webkit-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+      -moz-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+      animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+      
+      left: 10%;
+      top: 40%;
+      
+      -webkit-transform: scale(0.7);
+      -moz-transform: scale(0.7);
+      transform: scale(0.7);
+  }
+  
+  .x4 {
+      -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+      -moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+      animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+      
+      left: 20%;
+      top: 0;
+      
+      -webkit-transform: scale(0.3);
+      -moz-transform: scale(0.3);
+      transform: scale(0.3);
+  }
+  
+  .x5 {
+      -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+      -moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+      animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+      
+      left: 30%;
+      top: 50%;
+      
+      -webkit-transform: scale(0.5);
+      -moz-transform: scale(0.5);
+      transform: scale(0.5);
+  }
+  
+  .x6 {
+      -webkit-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+      -moz-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+      animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+      
+      left: 50%;
+      top: 0;
+      
+      -webkit-transform: scale(0.8);
+      -moz-transform: scale(0.8);
+      transform: scale(0.8);
+  }
+  
+  .x7 {
+      -webkit-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+      -moz-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+      animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+      
+      left: 65%;
+      top: 70%;
+      
+      -webkit-transform: scale(0.4);
+      -moz-transform: scale(0.4);
+      transform: scale(0.4);
+  }
+  
+  .x8 {
+      -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+      -moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+      animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+      
+      left: 80%;
+      top: 10%;
+      
+      -webkit-transform: scale(0.3);
+      -moz-transform: scale(0.3);
+      transform: scale(0.3);
+  }
+  
+  .x9 {
+      -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+      -moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+      animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+      
+      left: 90%;
+      top: 50%;
+      
+      -webkit-transform: scale(0.6);
+      -moz-transform: scale(0.6);
+      transform: scale(0.6);
+  }
+  
+  .x10 {
+      -webkit-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+      -moz-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+      animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+      
+      left: 80%;
+      top: 80%;
+      
+      -webkit-transform: scale(0.3);
+      -moz-transform: scale(0.3);
+      transform: scale(0.3);
+  }
+  
+  /* KEYFRAMES */
+  
+  @-webkit-keyframes animateBubble {
+      0% {
+          margin-top: 1000px;
+      }
+      100% {
+          margin-top: -100%;
+      }
+  }
+  
+  @-moz-keyframes animateBubble {
+      0% {
+          margin-top: 1000px;
+      }
+      100% {
+          margin-top: -100%;
+      }
+  }
+  
+  @keyframes animateBubble {
+      0% {
+          margin-top: 1000px;
+      }
+      100% {
+          margin-top: -100%;
+      }
+  }
+  
+  @-webkit-keyframes sideWays { 
+      0% { 
+          margin-left:0px;
+      }
+      100% { 
+          margin-left:50px;
+      }
+  }
+  
+  @-moz-keyframes sideWays { 
+      0% { 
+          margin-left:0px;
+      }
+      100% { 
+          margin-left:50px;
+      }
+  }
+  
+  @keyframes sideWays { 
+      0% { 
+          margin-left:0px;
+      }
+      100% { 
+          margin-left:50px;
+      }
+  }
+  
+  
